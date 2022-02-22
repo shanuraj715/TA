@@ -1,0 +1,78 @@
+@import url('./card.css');
+@import url('./latest-products.css');
+
+*{
+    box-sizing: border-box !important;
+}
+
+:root{
+    --bg-clr: #f4f4f4;
+    --sr-blue: #037eba;
+    --sr-gray: #9e9e9c;
+}
+
+.page-bg{
+    background-color: var(--bg-clr) !important;
+}
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.bg-blue{
+    background-color: var(--sr-blue) !important;
+}
+
+.sr-text-blue{
+    color: var(--sr-blue) !important;
+}
+
+.sr-text-gray{
+    color: var(--sr-gray) !important;
+}
+
+
+
+
+
+
+
+/* FOR TESTING */
+
+.bg-red{
+    background-color: #ff0000;
+}
+
+.text-green{
+    color: green;
+}
+
+.footer-icon{
+    color: white;
+}
+
+
+
+.footer-fb-card{
+    background-color: #204387;
+}
+
+.footer-google-card{
+    background-color: #d14a2a;
+}
+
+.footer-twitter-card{
+    background-color: #1ecbff;
+}
+
+.footer-linkedin-card{
+    background-color: #056598;
+}
+
+.footer-skype-card{
+    background-color: #05a3e4;
+}
+
+.footer-vimeo-card{
+    background-color: #17b8ec;
+}

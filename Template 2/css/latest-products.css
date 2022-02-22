@@ -1,0 +1,22 @@
+
+
+.scrollar-dots-cont{
+
+}
+
+.scrollar-dots-cont span{
+    border-radius: 50%;
+    background-color: var(--sr-blue);
+    opacity: 0.4;
+    display: inline-block !important;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.scrollar-dots-cont .active{
+    opacity: 1;
+}
